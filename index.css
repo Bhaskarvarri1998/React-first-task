@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+.form-parent
+{
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.form-box 
+{
+  width: 70%;
+  height: 70%;
+  border: 2px blue solid;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.span-element
+{
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: blue;
+}

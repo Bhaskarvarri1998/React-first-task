@@ -1,0 +1,33 @@
+.App{
+  display:grid;
+  grid-template-rows: 130px auto;
+  
+}
+.App-header{
+  font-size: 50px;
+  text-align: center;
+  color: cyan;
+  padding-top: 60px;
+}
+.App-main{
+  display:flex;
+  flex-direction: row;
+  justify-content:left; 
+}
+.Page-column{
+display:grid;
+justify-content:space-between;
+width:300px;
+height:81.5vh;
+line-height: 100px;
+justify-content: center;
+background-color: cyan;
+}
+/* .Section1{
+  padding-top: 100px;
+} */
+.Page{
+  text-align: center;
+  line-height: 500px;
+  font-size: 100px;
+}
